@@ -116,7 +116,7 @@ class _DashboardState extends State<Dashboard> {
                 ),
                 SizedBox(height: 10.0),
                 Text(
-                  'ToDo with NodeJS + Mongodb',
+                  'Create Your Todo Here',
                   style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.w700),
                 ),
                 SizedBox(height: 8.0),
@@ -148,7 +148,7 @@ class _DashboardState extends State<Dashboard> {
                               dismissible: DismissiblePane(onDismissed: () {}),
                               children: [
                                 SlidableAction(
-                                  backgroundColor: Color(0xFFFE4A49),
+                                  backgroundColor: Color.fromARGB(255, 237, 5, 5),
                                   foregroundColor: Colors.white,
                                   icon: Icons.delete,
                                   label: 'Delete',
